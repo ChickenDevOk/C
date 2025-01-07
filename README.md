@@ -105,6 +105,11 @@ Some Stadard function in string.h useful.
 |strcmp(s1,s2)|compare the s1 with s2. If strings are same it return 0.|
 |strcat(s1,s2)|concat s1 with s2 and the result is stored in the s1|
 ```
+| Column 1     | Column 2     | Column 3     |
+|--------------|--------------|--------------|
+| Row 1 Cell 1 | Row 1 Cell 2 | Row 1 Cell 3 |
+| Row 2 Cell 1 | Row 2 Cell 2 | Row 2 Cell 3 |
+| Row 3 Cell 1 | Row 3 Cell 2 | Row 3 Cell 3 |
 
 
 
