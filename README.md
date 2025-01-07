@@ -22,7 +22,7 @@ for(int i=0;i<3;i++)
  printf("%c\n",str);
 }
 ```
-In constract, Double quoted is used to delcare or display full string. We don't need the loop when using double quoted. Example:
+In contra, Double quoted is used to delcare or display full string. We don't need the loop when using double quoted. Example:
 ```cpp
 char str[]="Lucifer";
 printf("%s",str);
