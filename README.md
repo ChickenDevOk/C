@@ -12,6 +12,23 @@ Nhưng ta cũng có thể gán kích thước trước cũng không sao.
 ```cpp
 char str[15]={'a','b','c','e'};
 ```
+Before diving in string. We must differate between single quoted '' and double quoted " "
+
+Single quoted is used to declare or display single character. Example:
+```cpp
+char str[]={'a','b','c'};
+for(int i=0;i<3;i++)
+{
+ printf("%c\n",str);
+}
+```
+In constract, Double quoted is used to delcare or display full string. We don't need the loop when using double quoted. Example:
+```cpp
+char str[]="Lucifer";
+printf("%s",str);
+```
+
+
 ### Đọc chuỗi từ bàn phím
 ```cpp
 char str[50];
@@ -108,7 +125,6 @@ Some Stadard function in string.h useful.
 |strlupr()|conver string to uppercase|
 |strstr(s1,s2)|find the first occurrence of s2 in s1|
 
-This is <span style="color: red;">red text</span> and this is <span style="color: blue;">blue text</span>.
 
 
 
