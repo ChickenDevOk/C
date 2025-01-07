@@ -1,5 +1,5 @@
 # C
-C String
+## C String
 ### String trong C là một chuỗi ký tự kết thúc bằng '\0'. Khác với một mảng ký tự là một mảng lưu từng phần tử riêng biệt là mỗi ký tự độc lập.
 ![image](https://github.com/user-attachments/assets/af4f146d-fc3a-42a1-8a0b-fb316e16cd7f)
 ### Có nhiều cách khởi tạo chuỗi:
