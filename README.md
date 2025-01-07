@@ -97,7 +97,7 @@ int main()
 }
 ```
 Some Stadard function in string.h useful.
-```markdown
+```
 |Funcion name| Description|
 |------------|------------|
 |strlen()|return the length of string|
