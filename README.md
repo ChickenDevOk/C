@@ -103,7 +103,8 @@ Some Stadard function in string.h useful.
 |strlen()|return the length of string|
 |strcpy(s1,s2)|copy the content of s2 to s1|
 |strcmp(s1,s2)|compare the s1 with s2. If strings are same it return 0.|
-|strcat(s1,s2)|concat s1 with s2 and the result is stored in the s1|  
+|strcat(s1,s2)|concat s1 with s2 and the result is stored in the s1|
+```
 
 
 
