@@ -108,6 +108,7 @@ Some Stadard function in string.h useful.
 |strlupr()|conver string to uppercase|
 |strstr(s1,s2)|find the first occurrence of s2 in s1|
 
+This is <span style="color: red;">red text</span> and this is <span style="color: blue;">blue text</span>.
 
 
 
