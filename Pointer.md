@@ -83,6 +83,14 @@ int main() {
 ### Chain of Pointer
 ![image](https://github.com/user-attachments/assets/824c3198-c6e7-41c9-bc44-f59964d80c4a)
 ## FUNCTION POINTER
+Function pointer is a type of pointer that stores the address of a function
+- Có nhiều ứng dụng hữu ích như callback function
+  ![image](https://github.com/user-attachments/assets/d65d6f03-52c8-4fac-910b-e1376fad3fd5)
+Cứ nghĩa đơn giản con trỏ thì lưu địa chỉ của một biến khác. Function ở đây chỉ là một khối các lệnh cùng thực hiện một chức năng nhất định nên nó cũng phải có khu vực địa chỉ mà địa chỉ đầu tiên của Function sẽ được lưu trong con trỏ.
+```cpp
+int *fptr(int,int);
+fptr=&function;
+```
 
 
 
