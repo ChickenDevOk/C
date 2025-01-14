@@ -91,7 +91,34 @@ Cứ nghĩa đơn giản con trỏ thì lưu địa chỉ của một biến kh�
 int *fptr(int,int);
 fptr=&function;
 ```
+## Ứng dụng
+```cpp
+#include <stdio.h>
 
+int add(int a,int b)
+{
+    return a+b;
+}
+int subtract(int a,int b)
+{
+    return a-b;
+}
+void calc(int a,int b, int (*fptr)(int,int))
+{
+    printf("Reuslt: %d\n",fptr(a,b));
+}
+
+int main() {
+   int a=100;
+   int b=90;
+   calc(a,b,add);
+   calc(a,b,subtract);
+    return 0;
+}
+```
+- Viết 2 hàm add và substract
+- Một hàm calc truyền vào 2 tham số và một con trỏ hàm với 2 tham số truyền vào là kiểu int
+- Ta chỉ cần truyền vào tên hàm thì fptr sẽ trỏ đến tên hàm đó. Tên hàm cũng chính là địa chỉ đầu tiên của hàm đó.
 
 
 
