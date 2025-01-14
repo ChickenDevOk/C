@@ -32,4 +32,59 @@ As pointer in C store the memory address, their size is independing of data type
 3.  Subtraction of integer to a pointer
 4.  Subtracing two pointers of the same type
 5.  Comparation of pointers.
+- Khi pointer tăng hoặc giảm là tăng một lượng bằng kiểu dữ liệu mà nó trỏ vào
+  ![image](https://github.com/user-attachments/assets/ddcb51aa-50b6-4802-a49c-6d1f228b093a)
+  Là 4bytes nếu là kiểu int hoặc kiểu float
+  ![image](https://github.com/user-attachments/assets/29436f3b-a9d2-4b1a-bec0-c891205057b7)
+  ![image](https://github.com/user-attachments/assets/99519f4f-7de3-4924-b33f-b24e89b0329c)
+### PASSING POINTER TO FUNCTION
+```cpp
+  void swap(int *a,int *b)
+{
+  int temp=0;
+  tmp = (*a);
+ (*a)=(*b);
+ *b=tmp;
+}
+void main()
+{
+  int a=30;
+  int b=60;
+printf("%d %d ",a,b);
+swap(&a,&b);
+printf("%d %d ",a,b);
+}
+```
+![image](https://github.com/user-attachments/assets/20092f79-4b89-4745-b879-c5158015410b)
+### POINTER TO POINTER
+Con trỏ cấp 2 sẽ lưu địa chỉ của con trỏ cấp 1. Và nó sẽ có quyền chỉnh sửa giá trị mà con trỏ cấp 1 đang chỉ vào.
+```cpp
+#include <stdio.h>
+
+int main() {
+  
+      // A variable
+    int var = 10;
+  
+    // Pointer to int
+    int *ptr1 = &var;
+  
+    // Pointer to pointer (double pointer)
+    int **ptr2 = &ptr1;  
+
+    printf("var: %d\n", var);          
+    printf("*ptr1: %d\n", *ptr1);
+    printf("**ptr2: %d", **ptr2);
+
+    return 0;
+}
+```
+![image](https://github.com/user-attachments/assets/a3a5bb60-4320-4243-9f87-d4c0abedb777)
+### Chain of Pointer
+![image](https://github.com/user-attachments/assets/824c3198-c6e7-41c9-bc44-f59964d80c4a)
+## FUNCTION POINTER
+
+
+
+
 
