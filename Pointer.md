@@ -223,6 +223,7 @@ Chương trình trên sẽ báo lỗi là read-only vì biến x là một const
 - NẾU KIỂU DỮ LIỆU RỒI TỚI CONSTANT RỒI TỚI POINTER THÌ ĐÓ LÀ CONSTANT POINTER.
 ### Constant pointer
 - The pointer points to a fixed memory location, and the value at that location can be changed becasue it's a variable, but the pointer will always point to the same location because it's made constant here.
+  
   ![image](https://github.com/user-attachments/assets/d1b32d93-5b1c-4417-94b1-18b3d2208304)
 ```cpp
 int main() {
@@ -235,6 +236,7 @@ int main() {
 }
 ```
 - Như vầy thì OK ta có thể thoải máy thay đổi giá trị cảu x vì p mới là hằng chứ biến x thì là biến bình thường thôi.
+  
 ![image](https://github.com/user-attachments/assets/581b5ddc-9a9e-4da5-ab0f-1cff900e1a37)
 - Nhưng bắng p trỏ vào thằng khác thì sẽ lỗi vì p là hằng.
 
